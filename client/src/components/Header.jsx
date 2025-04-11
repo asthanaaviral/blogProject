@@ -41,6 +41,9 @@ function Header () {
                 <Link to="/register" className="bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 rounded-full transition">
                     Register
                 </Link>
+                <Link to="/upload" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full transition">
+                    Upload Blog
+                </Link>
             </div>
         ) : (
             <div className="flex items-center space-x-4">
